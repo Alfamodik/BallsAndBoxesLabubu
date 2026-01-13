@@ -33036,6 +33036,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1415506218}
     m_Modifications:
+    - target: {fileID: 4323364635794094607, guid: ae33ba65d9353ae41ae3c5d9ef877b4c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4343525590842921935, guid: ae33ba65d9353ae41ae3c5d9ef877b4c, type: 3}
       propertyPath: m_Name
       value: PurchaseButtonFeedback
@@ -33127,6 +33131,10 @@ PrefabInstance:
     - target: {fileID: 8492616257699064079, guid: ae33ba65d9353ae41ae3c5d9ef877b4c, type: 3}
       propertyPath: m_Name
       value: SimpleBallSelectionButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492616257701031610, guid: ae33ba65d9353ae41ae3c5d9ef877b4c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8492616258281430908, guid: ae33ba65d9353ae41ae3c5d9ef877b4c, type: 3}
       propertyPath: m_Color.b
