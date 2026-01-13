@@ -136,10 +136,10 @@ MonoBehaviour:
       de: 
       hi: 
   InterstitialAdv:
-    showFirstAdv: 0
+    showFirstAdv: 1
     interAdvInterval: 60
-    postponeCallByFail: 0
-    postponeCallTimer: 10
+    postponeCallByFail: 1
+    postponeCallTimer: 60
     labelAdvSimLabel: 0
   Localization:
     setLanguageMod: 1
@@ -165,7 +165,7 @@ MonoBehaviour:
     buildNumber: 1
   Simulation:
     device: 0
-    language: ru
+    language: en
     advIntervalSimulation: 60
     durationAdv: 0.5
     loadAdv: 0

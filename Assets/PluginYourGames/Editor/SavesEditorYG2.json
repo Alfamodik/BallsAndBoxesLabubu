@@ -7,8 +7,8 @@
         false,
         false
     ],
-    "idSave": 9181,
-    "money": 776,
+    "idSave": 10725,
+    "money": 2053,
     "level": 26,
     "upgradeLevels": [
         1,
@@ -24,17 +24,17 @@
         0
     ],
     "ballPrices": [
-        1280.0,
+        2560.0,
         1600.0,
         1600.0,
         4000.0,
-        1600.0
+        3200.0
     ],
     "ballCounts": [
-        8,
+        9,
         5,
         4,
         3,
-        2
+        3
     ]
 }
