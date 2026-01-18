@@ -49,6 +49,9 @@ public class Upgrade : MonoBehaviour
             EventManager.Instance.Upgrade();
             _successfulPurchaseFeedback.PlayFeedbacks();
             SaveProgress();
+
+            if (YG2.isTimerAdvCompleted)
+                YG2.InterstitialAdvShow();
         }
         else
         {

@@ -32,9 +32,17 @@ public class MoneyManager : MonoBehaviour
         }
     }
 
-    public void Start()
+    void OnEnable() => YG2.onGetSDKData += Load;
+    void OnDisable() => YG2.onGetSDKData -= Load;
+
+    void Load()
     {
         LoadProgress();
+        _moneyDisplay.UpdateMoneyText(_money);
+    }
+
+    public void Start()
+    {
         _moneyDisplay.UpdateMoneyText(_money);
     }
 
@@ -74,6 +82,10 @@ public class MoneyManager : MonoBehaviour
             ball.GetStats().SetStat(Stat.PRICE, price * 2);
             SaveLoadManager.Instance.SaveBallPrices();
             SaveLoadManager.Instance.SaveBallCounts();
+            
+            if (YG2.isTimerAdvCompleted)
+                YG2.InterstitialAdvShow();
+            
             return true;
         }
         return false;
